@@ -1,0 +1,29 @@
+{
+  // ESLint
+  "eslint.enable": true,
+  "editor.defaultFormatter": null,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  // rubocop
+  "ruby.rubocop": "enable",
+  "ruby.rubocop.executePath": "",
+  "ruby.rubocop.configFilePath": ".rubocop.yml",
+  "[ruby]": {
+    "editor.codeActionsOnSave": {
+      "ruby.rubocopAutocorrect": true
+    }
+  }
+}
