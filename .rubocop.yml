@@ -1,0 +1,22 @@
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-performance
+  - rubocop-rubycw
+
+AllCops:
+  Exclude:
+    - 'node_modules/**/*'
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'lib/**/*'
+    - 'test/**/*'
+  NewCops: enable
+
+Performance:
+  Enabled: true
+
+Rubycw:
+  Enabled: true
