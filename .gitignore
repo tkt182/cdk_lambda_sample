@@ -1,8 +1,16 @@
 *.js
 !jest.config.js
+!.eslintrc.js
+!.prettierrc.js
 *.d.ts
 node_modules
+vendor
+.DS_Store
 
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# SAM
+.aws-sam/
+
